@@ -5,22 +5,22 @@
 
 ### Inventory details Todo:
 
-[x] Creating Basic Html template
-    [x] Heading
-    [x] Form
-        [x] Item Name
-        [x] Item Price
-        [x] Item Quantity
-        [x] Item Description
-        [x] Submit Button
+- [x] Creating Basic Html template
+    - [x] Heading
+    - [x] Form
+        - [x] Item Name
+        - [x] Item Price
+        - [x] Item Quantity
+        - [x] Item Description
+        - [x] Submit Button
 
-[x] Styling
-    [x] Form
-    [x] Main Div
+- [x] Styling
+    - [x] Form
+    - [x] Main Div
 
-[x] Functionalities
-    [x] Add Item
-    [x] Create Item
-    [x] Local Storage
-        [x] Set Item
-        [x] Get Item
+- [x] Functionalities
+    - [x] Add Item
+    - [x] Create Item
+    - [x] Local Storage
+        - [x] Set Item
+        - [x] Get Item
