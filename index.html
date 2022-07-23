@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory Management System</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .container h1 {
+        text-align: center;
+        margin: 2rem 0;
+        text-transform: uppercase;
+      }
+      form,
+      #mainDiv {
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 2rem;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+      }
+      #mainDiv {
+        transform: scale(1);
+        transition: transform 0.3s ease-in-out;
+      }
+      #mainDiv:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+      form input {
+        padding: 0.4rem;
+        margin: 0.4rem 0;
+        /* border: 0; */
+      }
+      input:last-of-type {
+        background-color: blue;
+        color: white;
+        margin-top: 1rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        letter-spacing: 0.2rem;
+        cursor: pointer;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Inventory Management System</h1>
+      <form id="form">
+        <h2>Form</h2>
+        <input type="text" id="item_name" placeholder="Item Name" required />
+        <input type="text" id="item_price" placeholder="Item Price" required />
+        <input
+          type="number"
+          id="item_quantity"
+          placeholder="Item Quantity"
+          required
+        />
+        <input
+          type="text"
+          id="item_description"
+          placeholder="Item Description"
+          required
+        />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
