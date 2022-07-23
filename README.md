@@ -1,26 +1,26 @@
 ## Basic Information rendering using LocalStorage:
 
-    <p?>setItem() from the object localStorage has set to a key of <strong>data</strong> and passed the values <strong>items</strong> which is an array converted to string using JSON.stringify() function</p> 
-    <p>Then again same <strong>data</strong> is fetched form localStorage using getItem() function and rendered in the html page</p>
+    setItem() from the object localStorage has set to a key of <strong>data</strong> and passed the values <strong>items</strong> which is an array converted to string using JSON.stringify() function,
+    Then again same <strong>data</strong> is fetched form localStorage using getItem() function and rendered in the html page
 
-### Inventory details Todo
+### Inventory details Todo:
 
-[*] Creating Basic Html template
-    [*] Heading
-    [*] Form
-        [*] Item Name
-        [*] Item Price
-        [*] Item Quantity
-        [*] Item Description
-        [*] Submit Button
+[x] Creating Basic Html template
+    [x] Heading
+    [x] Form
+        [x] Item Name
+        [x] Item Price
+        [x] Item Quantity
+        [x] Item Description
+        [x] Submit Button
 
-[*] Styling
-    [*] Form
-    [*] Main Div
+[x] Styling
+    [x] Form
+    [x] Main Div
 
-[*] Functionalities
-    [*] Add Item
-    [*] Create Item
-    [*] Local Storage
-        [*] Set Item
-        [*] Get Item
+[x] Functionalities
+    [x] Add Item
+    [x] Create Item
+    [x] Local Storage
+        [x] Set Item
+        [x] Get Item
